@@ -9,12 +9,12 @@
     <meta property="og:type" content="article" />
     <meta property="article:publisher" content="https://www.facebook.com/EarthWallpaperADay/" />
     <meta property="article:author" content="https://www.facebook.com/davsoft" />
-    <meta property="og:description" content="{{description}}" />
+    <meta property="og:description" content="{{caption}}" />
     <meta property="og:site_name" content="Earth Wallpaper a Day" />
-    <meta property="og:image" content="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-800x600.jpg" />
+    <meta property="og:image" content="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-800x600.jpg" />
     <meta property="og:image:width" content="800" />
     <meta property="og:image:height" content="600" />
-    <meta property="og:url" content="http://wallpapers.davidfindlay.com.au/{{shortdate}}.html" />
+    <meta property="og:url" content="http://wallpapers.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}.html" />
 
     <title>Earth Wallpaper a Day</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
@@ -66,11 +66,11 @@
 
 <h1 class="text-center"><a href="/">Earth Wallpaper a Day</a></h1>
 
-<div id="date" class="text-center">{{date}}</div>
+<div id="date" class="text-center">{{helper_date date "dddd Do MMMM YYYY"}}</div>
 
 <div class="mx-auto">
-    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}.jpg">
-        <img id="wallpaper-browse" src="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-800x600.jpg" alt="{{location}}">
+    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}.jpg">
+        <img id="wallpaper-browse" src="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-800x600.jpg" alt="{{location}}">
     </a>
 </div>
 
@@ -81,7 +81,7 @@
     </div>
     <div>
         <a href="archive.html">Archive</a><br />
-        <a href="{{shortdate}}.html">Today</a><br />
+        <a href="{{helper_date date "YYYYMMDD"}}.html">Today</a><br />
     </div>
     <div>
         {{nextlink}}
@@ -164,10 +164,10 @@
                     Original Size
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}.jpg">No Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}.jpg">No Caption</a>
                 </td>
             </tr>
             <tr>
@@ -175,10 +175,10 @@
                     Full HD (1920 x 1080)
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1920x1080-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1920x1080-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1920x1080.jpg">No Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1920x1080.jpg">No Caption</a>
                 </td>
             </tr>
             <tr>
@@ -186,10 +186,10 @@
                     Wide UXGA (1920 x 1200)
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1920x1200-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1920x1200-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1920x1200.jpg">No Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1920x1200.jpg">No Caption</a>
                 </td>
             </tr>
             <tr>
@@ -197,10 +197,10 @@
                     UXGA (1600 x 1200)
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1600x1200-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1600x1200-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1600x1200.jpg">No Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1600x1200.jpg">No Caption</a>
                 </td>
             </tr>
             <tr>
@@ -208,10 +208,10 @@
                     SXGA (1280 x 1024)
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1280x1024-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1280x1024-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1280x1024.jpg">No Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1280x1024.jpg">No Caption</a>
                 </td>
             </tr>
             <tr>
@@ -219,10 +219,10 @@
                     Apple Macbook Pro 13.3" (2560 x 1600)
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-2560x1600-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-2560x1600-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-2560x1600.jpg">No Caption</td>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-2560x1600.jpg">No Caption</td>
                 </td>
             </tr>
             <tr>
@@ -230,10 +230,10 @@
                     Apple Macbook Pro 15" (2880 x 1800)
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-2880x1800-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-2880x1800-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-2880x1800.jpg">No Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-2880x1800.jpg">No Caption</a>
                 </td>
             </tr>
             <tr>
@@ -241,10 +241,10 @@
                     Microsoft Surface 3 (1920 x 1280)
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1920x1280-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1920x1280-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-1920x1280.jpg">No Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-1920x1280.jpg">No Caption</a>
                 </td>
             </tr>
             <tr>
@@ -252,10 +252,10 @@
                     Microsoft Surface Pro 3 (2160 x 1440)
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-2160x1440-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-2160x1440-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-2160x1440.jpg">No Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-2160x1440.jpg">No Caption</a>
                 </td>
             </tr>
             <tr>
@@ -263,10 +263,10 @@
                     Microsoft Surface Pro 4 (2736 x 1824)
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-2736x1824-caption.jpg">With Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-2736x1824-caption.jpg">With Caption</a>
                 </td>
                 <td>
-                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{shortdate}}-2736x1824-caption.jpg">No Caption</a>
+                    <a href="http://wallpapers-cdn.davidfindlay.com.au/{{helper_date date "YYYYMMDD"}}-2736x1824-caption.jpg">No Caption</a>
                 </td>
             </tr>
             </tbody>
